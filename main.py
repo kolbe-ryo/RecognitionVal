@@ -17,7 +17,7 @@ def main():
             
             # Take picture and get time
             # imgOrg = camera.capture()
-            imgOrg = r"C:\Users\M168889\Desktop\Development\VScode\SteamMeter\Steam_Meter\Luminous\pic\4.jpg"
+            imgOrg = "your jpg directly"
             imgOrg = cv2.imread(imgOrg)
             timeTakePic = str(datetime.datetime.now().strftime('%Y%m%d%H%M'))
 
