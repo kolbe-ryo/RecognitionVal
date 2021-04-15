@@ -17,7 +17,7 @@ def main():
             
             # Take picture and get time
             # imgOrg = camera.capture()
-            imgOrg = "your jpg directly"
+            imgOrg = "Please set your picture directly and name"
             imgOrg = cv2.imread(imgOrg)
             timeTakePic = str(datetime.datetime.now().strftime('%Y%m%d%H%M'))
 
